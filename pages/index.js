@@ -1,10 +1,11 @@
-import Container from '../components/container'
-import MoreStories from '../components/more-stories'
-import HeroPost from '../components/hero-post'
-import Intro from '../components/intro'
-import Layout from '../components/layout'
-import { getAllPosts } from '../lib/api'
 import Head from 'next/head'
+
+import HeroPost from '../components/content/HeroPost'
+import Intro from '../components/content/Intro'
+import MoreStories from '../components/content/MoreStories'
+import Container from '../components/layout/Container'
+import Layout from '../components/layout/Layout'
+import { getAllPosts } from '../lib/api'
 import { CMS_NAME } from '../lib/constants'
 
 export default function Index({ allPosts }) {
@@ -42,10 +43,10 @@ export async function getStaticProps() {
     'slug',
     'author',
     'coverImage',
-    'excerpt',
+    'excerpt'
   ])
 
   return {
-    props: { allPosts },
+    props: { allPosts }
   }
 }

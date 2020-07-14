@@ -1,7 +1,8 @@
-import Avatar from '../components/avatar'
-import DateFormater from '../components/date-formater'
-import CoverImage from '../components/cover-image'
 import Link from 'next/link'
+
+import Avatar from '../media/Avatar'
+import CoverImage from '../media/CoverImage'
+import DateFormatter from '../media/DateFormatter'
 
 export default function HeroPost({
   title,
@@ -9,7 +10,7 @@ export default function HeroPost({
   date,
   excerpt,
   author,
-  slug,
+  slug
 }) {
   return (
     <section>
@@ -24,7 +25,7 @@ export default function HeroPost({
             </Link>
           </h3>
           <div className="mb-4 md:mb-0 text-lg">
-            <DateFormater dateString={date} />
+            <DateFormatter dateString={date} />
           </div>
         </div>
         <div>
