@@ -1,3 +1,5 @@
+import { GIT_PROFILE_URL } from '../../lib/constants'
+import ATag from './ATag'
 import Container from './Container'
 
 export default function Footer() {
@@ -9,34 +11,34 @@ export default function Footer() {
             Jaskier
           </h3>
           <div className="flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2">
-            <a
-              className="contact-logo"
-              href="https://github.com/4lch4"
-              target="_blank"
-            >
-              <img alt="GitHub Logo" src="/assets/img/github.svg" />
-            </a>
-            <a
-              className="contact-logo"
-              href="https://dev.to/4lch4"
-              target="_blank"
-            >
-              <img alt="Dev.to Logo" src="/assets/img/dev.to.svg" />
-            </a>
-            <a
-              className="contact-logo"
-              href="https://www.linkedin.com/in/devin-leaman-49622429/"
-              target="_blank"
-            >
-              <img alt="LinkedIn Logo" src="/assets/img/linkedin.svg" />
-            </a>
-            <a
-              className="contact-logo"
-              href="https://www.facebook.com/4lch4"
-              target="_blank"
-            >
-              <img alt="Facebook Logo" src="/assets/img/facebook.svg" />
-            </a>
+            <ATag url={GIT_PROFILE_URL}>
+              <img
+                className="contact-logo"
+                alt="GitHub Logo"
+                src="/assets/img/github.svg"
+              />
+            </ATag>
+            <ATag url="https://dev.to/4lch4">
+              <img
+                className="contact-logo"
+                alt="Dev.to Logo"
+                src="/assets/img/dev.to.svg"
+              />
+            </ATag>
+            <ATag url="https://www.linkedin.com/in/devin-leaman-49622429/">
+              <img
+                className="contact-logo"
+                alt="LinkedIn Logo"
+                src="/assets/img/linkedin.svg"
+              />
+            </ATag>
+            <ATag url="https://www.facebook.com/4lch4">
+              <img
+                className="contact-logo"
+                alt="Facebook Logo"
+                src="/assets/img/facebook.svg"
+              />
+            </ATag>
           </div>
         </div>
       </Container>
