@@ -6,7 +6,7 @@ import MoreStories from '../components/content/MoreStories'
 import Container from '../components/layout/Container'
 import Layout from '../components/layout/Layout'
 import { getAllPosts } from '../lib/api'
-import { CMS_NAME } from '../lib/constants'
+import { APP_NAME } from '../lib/constants'
 
 export default function Index({ allPosts }) {
   const heroPost = allPosts[0]
@@ -15,7 +15,7 @@ export default function Index({ allPosts }) {
     <>
       <Layout>
         <Head>
-          <title>Next.js Blog Example with {CMS_NAME}</title>
+          <title>{APP_NAME}</title>
         </Head>
         <Container>
           <Intro />
