@@ -1,6 +1,6 @@
 ---
 title: About Me
-excerpt: 'A long winded response to the question of "Who are you?" and "Why should I care?"'
+excerpt: 'A long winded response to the question of "Who are you?"'
 coverImage: '/assets/blog/about-me/cover.jpg'
 date: '2020-07-13 19:43:18'
 author:
@@ -10,9 +10,11 @@ ogImage:
   url: '/assets/img/default-cover.jpg'
 ---
 
-## Overview
+## Who I Am and Why You Should Care
 
-I... Write code.
+1, My name is  Inigo Mon.. _ahem_ I mean, my name is Devin, I go by 4lch4/Alcha online, and I like to make/fix things.
+
+2, You shouldn't imo, but it's your call.
 
 In reality, I'm a lazy guy who likes to watch movies/tv shows/YouTube, play video games, that kind of stuff. I also happen to know how to write code so when I find myself getting annoyed at a task, I create something to make it less annoying.
 
@@ -20,13 +22,13 @@ I'm not too sure how to structure this page, so I'm gonna start with a resume st
 
 ### Education
 
-- High School
-  - [Redlands Senior High][1]
-  - Graduated 2011
-- College
-  - [University of Arkansas at Fort Smith][0]
-  - 2011 - 2015
-  - Graduated with a Bachelor's in **Information Technology - Programming**
+* High School
+  * [Redlands Senior High][1]
+  * Graduated 2011
+* College
+  * [University of Arkansas at Fort Smith][0]
+  * 2011 - 2015
+  * Graduated with a Bachelor's in **Information Technology - Programming**
 
 ### Jobs
 
